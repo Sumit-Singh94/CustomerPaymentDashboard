@@ -3,10 +3,11 @@ import type { Customer } from './types';
 const STORAGE_KEY = 'payment_dashboard_data';
 
 const INITIAL_DATA: Customer[] = [
-  { id: '1', name: 'John Doe', description: 'Web Dev Project', status: 'Paid', rate: 85.00, balance: 0.00, deposit: 500.00 },
-  { id: '2', name: 'Sarah Smith', description: 'SEO Audit', status: 'Open', rate: 120.00, balance: 350.00, deposit: 100.00 },
-  { id: '3', name: 'Michael Brown', description: 'Mobile App UI', status: 'Due', rate: 95.00, balance: 1200.00, deposit: 0.00 },
-  { id: '4', name: 'Emma Wilson', description: 'Consulting', status: 'Inactive', rate: 200.00, balance: 0.00, deposit: 0.00 },
+  { id: '1', name: 'Sumit Singh', description: 'Coder at SalesRobot', status: 'Paid', rate: 100.00, balance: 100.00, deposit: 100.00 },
+  { id: '2', name: 'John Doe', description: 'Web Dev Project', status: 'Paid', rate: 85.00, balance: 0.00, deposit: 500.00 },
+  { id: '3', name: 'Sarah Smith', description: 'SEO Audit', status: 'Open', rate: 120.00, balance: 350.00, deposit: 100.00 },
+  { id: '4', name: 'Michael Brown', description: 'Mobile App UI', status: 'Due', rate: 95.00, balance: 1200.00, deposit: 0.00 },
+  { id: '5', name: 'Emma Wilson', description: 'Consulting', status: 'Inactive', rate: 200.00, balance: 0.00, deposit: 0.00 },
 ];
 
 const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
