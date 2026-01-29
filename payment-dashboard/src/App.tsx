@@ -70,7 +70,7 @@ function Dashboard() {
         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
           <div>
             <h1 className="text-2xl font-bold tracking-tight">Payment Dashboard</h1>
-            <p className="text-slate-500">Manage customer payments and statuses.</p>
+            <p className="text-slate-500">Manage customer payments and status.</p>
           </div>
           
           <div className="flex gap-2">
