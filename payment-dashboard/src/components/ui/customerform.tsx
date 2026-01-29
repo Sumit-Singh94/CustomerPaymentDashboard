@@ -28,8 +28,10 @@ export default function CustomerForm({ isOpen, onClose, onSubmit, initialData, i
 
   useEffect(() => {
     if (isOpen) {
-      setFormData(initialData || { ...emptyForm, id: crypto.randomUUID() });
-    }
+ setFormData(initialData || { 
+  ...emptyForm, 
+  id: Date.now().toString() + Math.random().toString(36).substring(2) 
+});    }
   }, [isOpen, initialData]);
 
   const handleSubmit = (e: React.FormEvent) => {
