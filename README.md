@@ -2,7 +2,7 @@
 
 A high-performance, responsive dashboard for managing customer payment records. This project was built as a technical assessment to demonstrate clean architecture, efficient state management, and modern React practices.
 
-## 🚀 Quick Start
+##  Quick Start
 
 Follow these steps to run the project locally:
 
@@ -24,7 +24,7 @@ Follow these steps to run the project locally:
 
 4.  Open [http://localhost:5173](http://localhost:5173) in your browser.
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 * **Framework:** React (Vite) + TypeScript
 * **Styling:** Tailwind CSS
@@ -33,7 +33,7 @@ Follow these steps to run the project locally:
 * **Data Fetching:** TanStack Query / React Query (Server State)
 * **Icons:** Lucide React
 
-## 🏗 Architecture & Decisions
+##  Architecture & Decisions
 
 ### 1. Separation of Concerns (Server vs. Client State)
 I intentionally separated "Server State" from "Client State" to keep the application scalable and predictable.
