@@ -42,9 +42,9 @@ I intentionally separated "Server State" from "Client State" to keep the applica
 * **Zustand** handles the global UI state (Client State). specifically for row selection (`selectedIds`). It is lightweight and avoids the boilerplate of Redux for simple interactions.
 
 ### 2. Component Structure
-* `App.tsx` (Smart Component):** Acts as the main controller. It handles the data flow, mutation logic, and orchestrates the view.
-* `CustomerForm.tsx` (Presentational):** An isolated component that manages its own local form state. It receives data via props and emits changes back to the parent, making it reusable and easy to test.
-* `lib/api.ts` (Mock Service):** Instead of hardcoded data inside components, I abstracted the data layer into a mock service. It uses `localStorage` to simulate persistence and `setTimeout` to mimic network latency, providing a realistic "async" experience.
+* `App.tsx` (Smart Component): Acts as the main controller. It handles the data flow, mutation logic, and orchestrates the view.
+* `CustomerForm.tsx` (Presentational): An isolated component that manages its own local form state. It receives data via props and emits changes back to the parent, making it reusable and easy to test.
+* `lib/api.ts` (Mock Service): Instead of hardcoded data inside components, I abstracted the data layer into a mock service. It uses `localStorage` to simulate persistence and `setTimeout` to mimic network latency, providing a realistic "async" experience.
 
 ### 3. UI/UX Choices
 * ShadCn UI: Chosen for its accessibility and modularity. Unlike component libraries that lock you into specific styles, ShadCn gives me ownership of the code, allowing for pixel-perfect customization via Tailwind.
