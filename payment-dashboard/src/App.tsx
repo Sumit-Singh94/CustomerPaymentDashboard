@@ -194,7 +194,7 @@ function Dashboard() {
                     <TableCell className="text-right font-mono">
                       ${customer.rate.toFixed(2)}
                     </TableCell>
-                    <TableCell className="text-right font-mono text-slate-500">
+                    <TableCell className="text-right font-mono text-slate-900">
                       ${customer.deposit.toFixed(2)}
                     </TableCell>
                     <TableCell className="text-right font-mono font-medium">
