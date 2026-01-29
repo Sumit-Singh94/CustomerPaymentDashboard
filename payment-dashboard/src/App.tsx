@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useQuery, useMutation, useQueryClient, QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { fetchCustomers, saveCustomer, deleteCustomers } from './lib/api';
 import { useStore } from './store/store';
-import type { Customer, Status } from './lib/types';
+import type { Status } from './lib/types';
 import CustomerForm from './components/ui/customerform';
 import { Button } from './components/ui/button';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from './components/ui/table';
